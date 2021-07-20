@@ -1,0 +1,13 @@
+/* css/src/mmca_main.css */
+
+/* 공통범위의 디자인 */
+@import url("../pwd/a_baisc_layout.css");
+/* 스마트폰 v 디자인 */
+@import url("../pwd/b_smartphone_v.css");
+/* 스마트폰 h 디자인 */
+@import url("../pwd/c_smartphone_h.css");
+/* 태블릿 */
+@import url("../pwd/d_tablet.css");
+/* pc */
+@import url("../pwd/e_pc.css");
+
