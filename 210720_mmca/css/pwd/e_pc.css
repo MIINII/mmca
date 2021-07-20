@@ -338,7 +338,7 @@
       line-height: 30px;
     }
   
-  .social li:first-child { padding-right:0; border-right: none; }
+  .social li:first-child { padding-right:0; border-right: 0; }
   .social li:first-child:after,
   .social li:first-child::after { display:none; }
   

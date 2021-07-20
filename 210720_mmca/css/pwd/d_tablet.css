@@ -201,7 +201,7 @@
     text-align: center;
   }
   .display li:last-child:after,
-  .display li:last-child::after { padding-right:none; display:none;}
+  .display li:last-child::after { padding-right:0; display:none;}
     /* // bg ------------------------------------------------------------- */
     
     
@@ -340,7 +340,7 @@
       line-height: 30px;
     }
   
-  .social li:first-child { border-right: none; }
+  .social li:first-child { border-right: 0; }
   .social li:first-child:after,
   .social li:first-child::after { display:none; }
   
