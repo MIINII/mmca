@@ -52,6 +52,7 @@
       /* background-color: #aaa; */
     }
   .menu > a { width: 100%; height: 100%; }
+  .menu_list { display: none; }
   
   /* // head-------------------------------------------------------------- */
   
@@ -71,7 +72,7 @@
   }
   
   #viewBox > h3 {
-    /* display:inline-block; */
+    display:inline-block;
     padding-top: 75px;
     font-size: var(--font-size2);
     color: var(--color-black);
@@ -99,20 +100,23 @@
   
   .bg {
     float:right;
-    margin:auto;
-    right:200px;
-    z-index: -100;
     background-position: 100% 0;
     width: 45%; height: 1080px;
+    background-image: url("../../image/Hwang.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 80% auto;
     background-color: var(--color-black);
   }
   
-  .bg > img {
+  .bg img {
     margin:auto;
     width: 80%; height: auto;
     margin-top: 180px;
     margin-left: 50px;
+    background-image: url("../../image/Hwang.jpg");
     box-shadow: 10px 10px 10px rgba(50, 50, 50, .3);
+    background-color: rgb(131,215,9);
   }
   /* // section ---------------------------------------------------------------- */
   
@@ -150,7 +154,11 @@
   /* // navBox ------------------------------------------------------------------------ */
   
   
-  #recommend { width: 85%; height: auto; margin:auto; }
+  #recommend {
+    width: 85%; height: auto;
+    margin:auto;
+    background-clip: rgb(156,88,205);
+  }
   
   .title{position: relative; padding-top: 10rem; }
   .title:before ,
@@ -201,7 +209,7 @@
     text-align: center;
   }
     .display li:last-child:after,
-    .display li:last-child::after { padding-right:0; display:none;}
+    .display li:last-child::after { padding-right:none; display:none;}
     /* // bg ------------------------------------------------------------- */
     
     
@@ -219,12 +227,13 @@
     }
     
     .poster {
-      width: 245px; height: 320px;
+      width: 15.3125rem; height: 20rem;
       float:right;
       box-sizing: border-box;
       margin-top: 100px;
+      margin-bottom: 60px;
       background-image: url("../../image/yookangyul.jpg");
-      background-size: 245px 320px;
+      background-size: 15.3125rem 20rem;
       background-repeat: no-repeat;
       border: 1px solid var(--color-black);
     }
@@ -272,6 +281,7 @@
   
   .guide_title > h3 {
     display:inline-block;
+    width: auto;
     padding-top: 100px;
     font-size: var(--font-size2);
     line-height: 5.3rem;
@@ -279,6 +289,7 @@
   
   .guide_title > p {
     display:inline-block;
+    width: auto;
     margin-left: 2.5rem;
     font-size: var(--font-size5);
     line-height: 5.3rem;
@@ -286,15 +297,16 @@
   
   .guide_contents { width: 100%; height: auto; }
   .guide_contents ul {
-    width: auto; height: auto;
-    padding: 20px 80px 20px 80px;
+    width: 78%; height: auto;
     margin: auto;
-    margin-top: 300px;
+    margin-top: 100px;
+    background-color: rgb(160,157,150);
   }
   .guide_contents li {
     display: inline-block;
     width: 200px; height: 200px;
-    margin-right: 70px;
+    margin:auto;
+    margin-right: 10px;
     background-image:url("../../image/docent.png");
     background-repeat: no-repeat;
     background-size: 200px 200px;
@@ -338,16 +350,16 @@
       line-height: 30px;
     }
   
-  .social li:first-child { padding-right:0; border-right: 0; }
+  .social li:first-child { padding-right:0; border-right: none; }
   .social li:first-child:after,
   .social li:first-child::after { display:none; }
   
   /* // gudie --------------------------------------------------------------  */
   
   #sponsor {
-    width: 100%; height: 800px;
+    width: 100%; height: auto;
     padding-top: 500px;
-    /* background-color: rgb(41,141,41); */
+    margin:auto;
   }
   
   #sponsor h3 {
@@ -358,14 +370,12 @@
     text-align: left;
   }
   
-  #sponsor ul {
-    width: auto; height: auto;
-    padding:82px
-  }
-  
+  #sponsor ul { width: 1000px; height: auto;}
+  #sponsor img { width: auto; height: 100%; }
   #sponsor li {
     display: inline-block ;
-    margin-right: 10px; padding-top: 10px;
+    width: auto; height: auto;
+    margin:auto;
   }
   
   /* // sponsor --------------------------------------------------------------  */
