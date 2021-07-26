@@ -1,29 +1,6 @@
 @charset "UTF-8";
 /* css/base/reset.css */
 
-:root {
-  /* color */
-  --color-white:#ffffff;
-  --color-black:#474747;
-  --color-gray:#3F4443;
-  --color-gray2:#7B8583;
-  --color-peacock:#285053;
-  --color-peacock2:#4C8185;
-  --color-gold:#DCD3C6;
-  --color-gold:#E8DECF;
-
-  /* font-family */
-  --font-family:'AppleSDGothicNeoB00 Regular','AppleSDGothicNeoSB00 Regular', 'AppleSDGothicNeoR00 Regular';
-
-  /* font-size */
-  --font-size1:3.5rem;
-  --font-size2:2.7rem; /* 10pt : 10/12*16=13.33333px 10/12=0.8333333rem  */
-  --font-size3:1.6rem;
-  --font-size4:1.2rem;
-  --font-size5:1rem;
-  --font-size6:.5rem;
-}
-
 html, body {
   width:100%; height:100%;
   margin:0; padding:0; 

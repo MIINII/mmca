@@ -54,6 +54,7 @@
   .menu > a { width: 100%; height: 100%; }
   .menu_list { display: none; }
   
+  /* .menu_btn, .search_btn :active { background-color: #333;} */
   /* // head-------------------------------------------------------------- */
   
   
@@ -212,7 +213,6 @@
     .all_exhibit {
       display: inline-block;
       width: 100%; height: auto;
-      margin-bottom: 700px;
       /* background-color: rgb(253,159,219); */
     }
     
@@ -228,15 +228,17 @@
       box-sizing: border-box;
       margin-top: 100px;
       margin-bottom: 60px;
-      background-image: url("../../image/yookangyul.jpg");
+      border: 1px solid var(--color-black);
+    }
+    .poster img {
+      width: 100%; height: 100%;
       background-size: 15.3125rem 20rem;
       background-repeat: no-repeat;
-      border: 1px solid var(--color-black);
     }
     
     .poster_ex {
       display: inline-block;
-      width: 300px; height:auto;
+      width: 500px; height:auto;
       box-sizing: border-box;
       /* background-color: rgb(203,62,142); */
     }
@@ -250,8 +252,8 @@
     }
     .poster_ex > p {
       display: inline-block;
-      width: auto; max-width: 380px;
-      height: auto; max-height: 90px;
+      width: auto; max-width: 500px;
+      height: auto; max-height: 300px;
       margin-top: 20px;
       text-align: left;
       line-height: 30px;
@@ -261,6 +263,14 @@
     .poster_ex li:last-child{  padding-right: 0; }
     .poster_ex li:last-child:after,
     .poster_ex li:last-child::after { display:none; }
+
+    .next_btn {
+      display: inline-block;
+      width: auto; height: 100%;
+      margin-top: 50px;
+      margin-bottom: 700px;
+      margin-left: 50rem;
+    }
     
     /* // article ------------------------------------------- */
   
@@ -268,8 +278,7 @@
   .guide {
       width: 100%; height: 1080px;
       margin:0; padding:0;
-      background-color: rgba(63, 68, 67, .1); 
-      background-image: url("../../image/1x/bg_02.png");
+      background-image: url("../../image/bg.png");
       background-repeat: no-repeat;
       background-size: 400px 400px;
       background-position: 100% 0;
@@ -296,18 +305,18 @@
     width: 78%; height: auto;
     margin: auto;
     margin-top: 100px;
-    background-color: rgb(160,157,150);
   }
   .guide_contents li {
     display: inline-block;
-    width: 200px; height: 200px;
+    width: 12.5rem; height: 12.5rem;
     margin:auto;
-    margin-right: 10px;
-    background-image:url("../../image/docent.png");
+    margin-right: 0.625rem;
     background-repeat: no-repeat;
-    background-size: 200px 200px;
+    background-size: 12.5rem 12.5rem;
+    background-color: #fff;
     border: 1px solid #ccc;
   }
+  .guide_contents img { width: 100%; height: 100%;}
   
   .guide_contents li:last-child{  margin-right: 0; }
   .guide_contents li:last-child:after,
