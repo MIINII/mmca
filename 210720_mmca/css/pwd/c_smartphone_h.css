@@ -162,7 +162,7 @@
     text-align: center;
   }
   .display li:last-child:after,
-  .display li:last-child::after { padding-right:none; display:none;}
+  .display li:last-child::after { padding-right:0; display:none;}
 
   
 /* // bg ------------------------------------------------------------- */

@@ -157,11 +157,7 @@
   
   /* // navBox ------------------------------------------------------------------------ */
   
-  #recommend {
-    width: 85%; height: auto;
-    margin:auto;
-    background-clip: rgb(156,88,205);
-  }
+  #recommend { width: 85%; height: auto; margin:auto; }
   
   .title{position: relative; padding-top: 10rem; }
   .title:before ,
